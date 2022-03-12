@@ -1,13 +1,2 @@
-# a,b = gets.split.map &:to_i
-
-# if a < b
-#     puts "a < b"
-# elsif a > b
-#     puts "a > b"
-# elsif a == b
-#     puts "a == b"
-# end
-
-
 a,b=gets.split.map &:to_i
 puts"#{%w(== > <)[a<=>b]}"
